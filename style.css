@@ -127,7 +127,9 @@ p{
 }
 
 .text{
-    display: flex;
+}
+
+.quote .text{
     font-size: 28px;
     max-width: 600px;
     font-weight: 300;
