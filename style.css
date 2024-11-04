@@ -3,7 +3,6 @@ body{
     flex-direction: column;
     font-family: "Roboto";
     color: white;
-    font-style: italic;
 }
 
 a{
@@ -57,12 +56,13 @@ p{
 }
 
 .header-intro-title{
-    font-weight: 900;
-    font-size: 48px;
+    font-weight: 800;
+    font-size: 38px;
 }
 
 .header-intro-text{
     max-width: 400px;
+    font-size: large;
 }
 
 .header-image{
@@ -111,9 +111,9 @@ p{
 .card-text{
     display: flex;
     max-width: 100px;
-    text-align: center;
     padding: 10px 20px;
     color: black;
+    font-size: 16px;
 }
 
 .quote{
@@ -121,18 +121,16 @@ p{
     flex-direction: column;
     background-color: #e5e7eb;
     color:black;
-    padding: 50px;
+    padding: 100px;
     width: 100%;
     align-items: center;
-}
-
-.text{
 }
 
 .quote .text{
     font-size: 28px;
     max-width: 600px;
     font-weight: 300;
+    font-style: italic;
 }
 
 .quote .citation{
